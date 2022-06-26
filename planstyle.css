@@ -1,0 +1,356 @@
+body{
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+}
+
+.main-nav {
+    height: 75px;
+    top: 0px;
+    z-index: 3;
+    width: 100%;
+    background: hsla(0, 0%, 100%, .98);
+    display: flex;
+    justify-content: space-around;
+}
+
+.docplanner-logo {
+    width: 268px;
+    height: 33px;
+    margin: 20px 10px;
+}
+
+img {
+    width: 100%;
+}
+
+.navig {
+    margin-top: 30px;
+    margin-right: 15%;
+    white-space: nowrap;
+}
+
+
+.navig a:hover{
+    color: #00b39b;
+}
+
+.services,
+.statistics {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.doc-logo {
+    width: 40px;
+    height: 40px;
+}
+
+.slogan {
+    margin: 1em 0;
+    color: #00b39b;
+    font-size: 2.125rem;
+    font-weight: 300;
+    letter-spacing: -.3px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.description-content {
+    width: 478px;
+    height: 112px;
+    line-height: 1.75;
+    margin: 25px;
+    white-space: normal;
+}
+
+.patient {
+    width: 478px;
+    height: 391px;
+    max-width: 478px;
+    max-height: 391px;
+    border-radius: 10px;
+    background-color: #00ccb1;
+    white-space: normal;
+    overflow: hidden;
+}
+
+.div-title {
+    color: hsla(0, 0%, 100%, .7);
+    font-size: 14px;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+.div-description {
+    color: #fff;
+    font-size: 27px;
+    padding-left: 30px;
+}
+
+.country-selection {
+    margin: 3% 2% 0% 7%;
+    width: 80px;
+    height: 45px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.country-selection select {
+    width: 175px;
+    height: 40px;
+    border-radius: 5px;
+    background: #fff;
+    border: 0;
+    text-transform: uppercase;
+    padding: 3% 2% 0% 10%;
+}
+/*
+.navig{
+    display:  block;
+    padding-left: 30px;
+   font-size: larger;
+   font: 15px Roboto, Arial,sans-serif;
+   float: right;
+}
+.navig a{
+    color: gray;
+    text-decoration: none;
+    padding-top: 12px 16px;
+    display: inline-flex;
+    text-align: center;
+    padding: 10px;
+    
+}*/
+.navig a{
+   padding: 10px;
+   color: #747474;
+   text-decoration: none;
+}
+
+
+#clinic {
+     background-color: #1b2734;
+}
+
+#doctor {
+    background-color: #3D83DF;
+}
+
+#services,
+#des-div,
+#company-brands {
+    flex-direction: row;
+    justify-content: center;
+}
+
+#doc-desc {
+    margin-bottom: 75px;
+}
+
+#company-slogan {
+    width: 16%;
+    margin-left: 15%;
+}
+
+.brand-logo {
+    list-style: none;
+}
+
+.brand-logo li {
+    font-size: 16px;
+    display: inline-block;
+    width: 168px;
+    padding-right: 5px;
+}
+
+.brand-logo li:hover svg {
+    fill: #00b3a8;
+}
+
+.brand-logo li svg {
+    height: 20px;
+    width: auto;
+    max-width: 100%;
+    padding-top: 10px;
+    fill: #747474 ;
+}
+
+.statistics {
+    background-color: #e5faf8;
+    float: left;
+    padding: 10px;
+    min-height: 1px;
+    width: 80%;
+    flex-direction: row;
+    width: 1450px;
+}
+
+#upstat {
+    margin-top: 50px;
+    align-items: center;
+}
+
+#statistics-slogan {
+    font-size: 2.2em;
+}
+
+.statistics-desc {
+    font-size: .875em;
+    font-weight: 400;
+    padding: 13px 129px;
+    margin: 22.4px 39.3px;
+    line-height: 1.7142857143;
+    max-width: 415px;
+}
+
+p {
+    margin: 1.6em 0;
+}
+
+.stats-dplogo img{
+    height: 382px;
+    width: 440px;
+    margin-top: 25px;
+}
+
+.box {
+    background-color: #fff;
+    width: 228px;
+    height: 250px;
+    border-radius: 5px;
+    margin-top: 31px;
+    text-align: center;
+}
+
+.box img{
+   margin-top: 13%;
+   width: 40px;
+}
+
+.land-desc {
+    padding: 0%;
+    font: 13px Roboto, Arial, sans-serif;
+    width: 296.8;
+    height: 67.6;
+}
+
+.rd-title {
+    font-size: 1.5rem 1.17em;
+    color: #00b3a8;
+   margin: .5em 0;  
+}
+
+h3{
+    display: block;
+    font-weight: bold;
+    margin-block-end: 1em;
+    margin-block-start: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+.box-ghb {
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.text-container {
+    width: 470px;
+    margin: 8% 31%;
+    text-align: center;
+}
+
+.text-div {
+    font-size: .875em;
+    line-height: 1.7;
+}
+
+.image-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+    margin: 0% 13% 9%;
+}
+
+.wrapper {
+    width: 309px;
+    height: 345px;
+    border: 1px solid #fbf5f5;
+    border-radius: 5px;
+}
+
+.wrapper img {
+    width: 309px;
+    height: 278px;
+}
+
+.city-desc {
+   font-weight: 400;
+   margin: 5%;
+   line-height: 1.7;
+   font-size: 14px;
+}
+.city-desc p {
+    font-size: large;
+    font-style: bold;
+}
+
+.seemore {
+    color: #FFF;
+    background: #3D83DF;
+    margin-left: 39%;
+    text-align: center;
+    letter-spacing: .04em;
+    font-size: .75em;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 700;
+    line-height: 1em;
+    padding: 10px 10px;
+    display: inline-block;
+    vertical-align: middle;
+    justify-content: flex-start;
+}
+
+.seemore:hover {
+   background: #1662c6;
+   color: #fff;
+}
+
+ .image-section a {
+     text-decoration: none;
+     color: #747474;
+ }
+
+ footer {
+     height: 75px;
+     width: 100%;
+     border-top: 1px solid #f0eeee;
+     font-size: .75em;
+     color: #ababab;
+     text-align: center;
+     line-height: 2.2;
+ }
+footer a {
+    color: #3d83df;
+    cursor: pointer;
+}
+
+ footer a:hover {
+     text-decoration: underline;
+ }
+
